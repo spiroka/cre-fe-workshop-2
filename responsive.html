@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+
+      aside {
+        background: whitesmoke;
+        flex: 1 1 200px;
+      }
+
+      main {
+        flex: 3 1 400px;
+        background: dimgrey;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <nav>
+        <ul>
+          <li>Menu item</li>
+          <li>Menu item</li>
+          <li>Menu item</li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <img src="http://placekitten.com/200/200" alt="">
+      <img src="http://placekitten.com/200/200" alt="">
+      <img src="http://placekitten.com/200/200" alt="">
+      <img src="http://placekitten.com/200/200" alt="">
+    </main>
+  </body>
+</html>

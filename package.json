@@ -1,0 +1,16 @@
+{
+  "name": "cre-fe-workshop-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "browserslist": "^4.21.9",
+    "lightningcss": "^1.21.5"
+  }
+}
