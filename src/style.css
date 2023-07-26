@@ -32,3 +32,27 @@ h2 {
 h3 {
   font-size: var(--font-size-h3);
 }
+
+.featured-article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  & article {
+    flex: 1 1 500px;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  & section {
+    flex: 1 1 200px;
+  }
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}

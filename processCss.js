@@ -6,6 +6,9 @@ module.exports = function(content) {
     filename: 'src/style.css',
     code: content,
     minify: true,
-    targets: browserslistToTargets(browserslist('>= 0.25%'))
+    targets: browserslistToTargets(browserslist('>= 0.25%')),
+    drafts: {
+      nesting: true
+    }
   }).code.toString();
 };
